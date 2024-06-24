@@ -38,7 +38,7 @@ export default function Login(props) {
          </ReactBootstrap.Row>
          <ReactBootstrap.Row className='mb-2'>
             <ReactBootstrap.Col>
-            <ReactBootstrap.Form.Control required type="password" name='password' onChange={changeHandler} placeholder='enter Password'/>
+            <ReactBootstrap.Form.Control required type="password" name='password' onChange={changeHandler} placeholder='Enter Password'/>
             </ReactBootstrap.Col>
          </ReactBootstrap.Row>
          <ReactBootstrap.Row>

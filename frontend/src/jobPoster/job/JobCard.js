@@ -27,7 +27,7 @@ export default class JobCard extends Component {
                 </ReactBootstrap.Col>
                 <ReactBootstrap.Col className='text-end'>
                     <p>{date}|{this.props.job.work}|{this.props.job.location}</p>
-                     <ReactBootstrap.Button onClick={() => this.deleteHandler(this.props.job._id)} variant="outline-dark">delete</ReactBootstrap.Button> 
+                     <ReactBootstrap.Button onClick={() => this.deleteHandler(this.props.job._id)} variant="outline-dark">Delete</ReactBootstrap.Button> 
                 </ReactBootstrap.Col>
             </ReactBootstrap.Row>
         </ReactBootstrap.Container>

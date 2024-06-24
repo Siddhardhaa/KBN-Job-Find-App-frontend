@@ -54,7 +54,7 @@ export default function Register() {
          </ReactBootstrap.Row>
          <ReactBootstrap.Row className='mb-2'>
             <ReactBootstrap.Col>
-            <ReactBootstrap.Form.Control type="password" required onChange={changeHandler} name='password' placeholder='enter Password'/>
+            <ReactBootstrap.Form.Control type="password" required onChange={changeHandler} name='password' placeholder='Enter Password'/>
             </ReactBootstrap.Col>
          </ReactBootstrap.Row>
         
@@ -65,7 +65,7 @@ export default function Register() {
          </ReactBootstrap.Row>
          <ReactBootstrap.Row>
          <ReactBootstrap.Col>
-            <p>already have an account ? <ReactBootstrap.Button size="sm" variant="outline-dark"><Link style={{textDecoration:"none"}} to='/'>Sign-In</Link></ReactBootstrap.Button></p>
+            <p>Already have an account ? <ReactBootstrap.Button size="sm" variant="outline-dark"><Link style={{textDecoration:"none"}} to='/'>Sign-In</Link></ReactBootstrap.Button></p>
          </ReactBootstrap.Col>
          </ReactBootstrap.Row>
          </form>
